@@ -79,3 +79,12 @@ console.log('Максимальная температура печи:', myImpro
 
 // Вызываем метод включения
 myImprovedOven.turnOn();
+
+// импорт модуля
+const checkForJavaScript = require('./checkJavaScript');
+
+// Вызываем функцию с примером строки
+const result = checkForJavaScript('Привет Javascript');
+
+// Выводим результат в консоль
+console.log(result);
